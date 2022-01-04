@@ -1,0 +1,117 @@
+.home{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: calc(100vh - 6.5rem);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('./assets/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .banner__section{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .banner__section div{
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+.banner__section div .banner__section__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+.banner__section div .banner__section__div label{
+    color: #fff;
+    margin-bottom: 0.3rem;
+    font-size: 0.8rem;
+}
+.banner__section div .banner__section__div div{
+    padding: 1.7rem;
+    background-color: #fff;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.banner__section div .banner__section__div div input{
+    padding: 1rem;
+    width: 4rem;
+    border: none;
+    outline: none;
+    background-color: #f7f7f7;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+}
+.banner__section div .banner__section__div div .search{
+    width: 20rem;
+}
+.banner__section div .banner__section__div div .banner__icons{
+    color: #929191;
+    cursor: pointer;
+}
+.banner__section div .banner__section__div div .count{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-align: center;
+}
+.banner__section .button__container button{
+    padding: 1.9rem 2.9rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    border-radius: 2.7rem;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    background: #DA4453;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #da42ae, #fd5565);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #da42ae, #fd5565); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.home__section__one{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+.home__section__one h1{
+    font-size: 2.7rem;
+    margin-top: 3.5rem;
+    font-weight: 300;
+}
+.home__section__one hr{
+    background-color: #DA4453;
+    width: 30%;
+    height: 0.1rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+.home__section__one .properties__container{
+    width: 92%;
+    padding: 2%;
+    height: 70vh;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+}
+.properties__container::-webkit-scrollbar{
+    background-color: transparent;
+}
+.properties__container::-webkit-scrollbar-track-piece {
+    display: none;
+}
